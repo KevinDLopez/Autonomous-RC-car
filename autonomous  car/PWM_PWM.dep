@@ -1,0 +1,21 @@
+Dependencies for Project 'PWM', Target 'PWM': (DO NOT MODIFY !)
+F (.\startup.s)(0x5C114E7D)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x5C114E7C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x5C114E7C)
+F (.\PWM.c)(0x5C114E7C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5C114E7D)
+F (.\PWMtest.c)(0x5C1AA758)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pwmtest.o --omf_browse .\pwmtest.crf --depend .\pwmtest.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PLL.h)(0x5C114E7C)
+I (PWM.h)(0x5C114E7C)
+I (tm4c123gh6pm.h)(0x5C114E7D)
+I (Nokia5110.h)(0x5C114E7C)
+I (ADCSWTrigger.c)(0x5C114E7B)
+I (ADCSWTrigger.h)(0x5C114E7B)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x532CB86E)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C88A34)
+I (ADCSWTrigger1.c)(0x5C114E7B)
+F (..\C11_Nokia5110\Nokia5110.h)(0x00000000)()
+F (.\Nokia5110.c)(0x5C114E7B)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5C114E7C)

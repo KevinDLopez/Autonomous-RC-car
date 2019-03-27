@@ -1,0 +1,11 @@
+.\pwmtest.o: PWMtest.c
+.\pwmtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\pwmtest.o: PLL.h
+.\pwmtest.o: PWM.h
+.\pwmtest.o: tm4c123gh6pm.h
+.\pwmtest.o: Nokia5110.h
+.\pwmtest.o: ADCSWTrigger.c
+.\pwmtest.o: ADCSWTrigger.h
+.\pwmtest.o: C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h
+.\pwmtest.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\pwmtest.o: ADCSWTrigger1.c
